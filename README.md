@@ -1,14 +1,14 @@
 # FrameByFrameAnimation
 A lightweight animation system that greatly simplifies 2D frame by frame animation in Unity.
 
-# Installation
+## Installation
 See [Install a UPM package from a Git URL](https://docs.unity3d.com/Manual/upm-ui-giturl.html)
 
-# Requirements
+## Requirements
 Unity version 6000.0.83f1 or later
 
-# Using FrameByFrameAnimation
-## Setup
+## Using FrameByFrameAnimation
+### Setup
 1. Add an 'AnimController' component to a GameObject that also has a 'SpriteRenderer' component.
 2. In the Inspector, add an entry to the **Clips** array for each different animation on the object. For each clip, set:
     - **Name:** The name of the animation (no two animations on the same object can have the same name). This is what you will use to play animations.
@@ -19,11 +19,11 @@ Unity version 6000.0.83f1 or later
     - **Frame Length Array:** The length of each individual frame, in order. Must be the same length as **Frames** if **Use Frame Length Array** is enabled.
 3. Set **Start Anim** to the name of an animation to be played on `Start()`. Leave as `"None"` for no start animation.
 
-## Usage
+### Usage
 
 ```csharp
 // Get AnimController component
-AnimController anim = GetComponent<AnimController.();
+AnimController anim = GetComponent<AnimController>();
 
 // Play an animation
 anim.PlayAnim("Idle");
@@ -37,5 +37,5 @@ anim.PlayAnim("Attack", () => Debug.Log("Attack Finished"));
 */
 ```
 
-# Changelog
+## Changelog
  - **0.1.0:** Initial release
