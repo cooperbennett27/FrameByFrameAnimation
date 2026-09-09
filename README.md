@@ -9,7 +9,7 @@ Unity version 6000.0.83f1 or later
 
 ## Using FrameByFrameAnimation
 ### Setup
-1. Add an 'AnimController' component to a GameObject that also has a 'SpriteRenderer' component.
+1. Add an `AnimController` component to a GameObject that also has a `SpriteRenderer` component.
 2. In the Inspector, add an entry to the **Clips** array for each different animation on the object. For each clip, set:
     - **Name:** The name of the animation (no two animations on the same object can have the same name). This is what you will use to play animations.
     - **Frames:** The sprites that will be played in the animation, in order.
