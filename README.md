@@ -18,6 +18,7 @@ Unity version 6000.0.83f1 or later
     - **Use Frame Length Array:** Enables per frame timing with **Frame Length Array**.
     - **Frame Length Array:** The length of each individual frame, in order. Must be the same length as **Frames** if **Use Frame Length Array** is enabled.
 3. Set **Start Anim** to the name of an animation to be played on `Start()`. Leave as `"None"` for no start animation.
+
 <img width="443" height="379" alt="image" src="https://github.com/user-attachments/assets/e2326552-fc69-4ebc-8afd-c19aca0a4fd2" />
 
 
