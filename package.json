@@ -1,0 +1,15 @@
+{
+  "name": "com.cooperbennett327.framebyframeanimation",
+  "displayName": "Frame By Frame Animation",
+  "version": "0.1.0",
+  "unity": "6000.0",
+  "unityRelease": "83f1",
+  "description": "A lightweight 2D animation system that greatly simplifies frame-by-frame animation.",
+  "dependencies": {
+    "com.unity.test-framework": "1.6.0"
+  },
+  "author": {
+    "name": "Cooper Bennett"
+  },
+  "documentationUrl": "https://example.com/"
+}
