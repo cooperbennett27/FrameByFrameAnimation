@@ -28,8 +28,13 @@ AnimController anim = GetComponent<AnimController.();
 // Play an animation
 anim.PlayAnim("Idle");
 
-// Play an animation with a callback (note that the callback only triggers when the animation completes; looping animations will never complete, and therefore won't trigger the callback)
+// Play an animation with a callback
 anim.PlayAnim("Attack", () => Debug.Log("Attack Finished"));
+
+/*
+    Note that the callback only triggers when the animation completes.
+    Looping animations will never complete, and therefore won't trigger the callback.
+*/
 ```
 
 # Changelog
